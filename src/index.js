@@ -12,6 +12,9 @@ import './index.css'
 
 // import Index from './basic/bind-event' // 绑定事件
 
-import Index from './basic/state' // 状态基本使用，包括this指向问题
+// import Index from './basic/state' // 状态基本使用，包括this指向问题
+
+// import Index from './basic/input' // 表单（受控组件）
+import Index from './basic/input-notCtrl' // 非受控组件
 
 ReactDOM.render(<Index />, document.getElementById('root'))
