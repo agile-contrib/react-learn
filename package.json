@@ -3,8 +3,8 @@
   "version": "0.2.0",
   "description": "react学习代码笔记",
   "scripts": {
-    "dev": "node_modules/.bin/webpack-dev-server --config webpack.dev.js",
-    "build": "node_modules/.bin/webpack --config webpack.prod.js"
+    "dev": "webpack-dev-server --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
